@@ -110,78 +110,7 @@ Update Centroids: Compute new centroids as the mean of all points in each cluste
 
 Repeat: Continue until centroids stop changing significantly (convergence).
 
-🧭 Mathematical Objective
 
-K-Means minimizes the Within-Cluster Sum of Squares (WCSS):
-
-𝐽
-=
-∑
-𝑖
-=
-1
-𝑘
-∑
-𝑥
-𝑗
-∈
-𝐶
-𝑖
-∣
-∣
-𝑥
-𝑗
-−
-𝜇
-𝑖
-∣
-∣
-2
-J=
-i=1
-∑
-k
-	​
-
-x
-j
-	​
-
-∈C
-i
-	​
-
-∑
-	​
-
-∣∣x
-j
-	​
-
-−μ
-i
-	​
-
-∣∣
-2
-
-Where:
-
-𝐶
-𝑖
-C
-i
-	​
-
- = set of points in cluster i
-
-𝜇
-𝑖
-μ
-i
-	​
-
- = centroid of cluster i
 
 📊 Advantages
 
